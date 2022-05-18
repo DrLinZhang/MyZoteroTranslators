@@ -7,7 +7,6 @@ Some Zotero translators are developed to support some useful document sites(for 
 
 ## 西工大本校硕博士学位论文数据库(NPU thesis database)
 
-
 西工大本校硕博士学位论文数据库，最新一版万方提供技术支持，收录了2001年以后部分西工大本校学位论文，包含题录信息以及全文查看下载；仅限西工大校园网访问，校内访问速度极佳。
 
 JS文件： [NPUThesisWangfang.js](translators/NPUThesisWangfang.js)  
@@ -16,6 +15,7 @@ JS文件： [NPUThesisWangfang.js](translators/NPUThesisWangfang.js)
 支持功能：文献页面单个导入、搜索页面批量导入
 
 # 食用方法 Usage
+- [Bilibili视频安装教程](https://www.bilibili.com/video/BV1MP4y1F7ve)最后一部分
 - 克隆或者下载本仓库
 - 浏览器打开Zotero数据文件夹( **首选项** - **高级** - **文件和文件夹**，可以查看Zotero具体设置,一般为`C:\Users\<YourName>\Zotero` )，该文件夹包含`tanslators`目录
   - 直接将本仓库`translators`整个文件夹拖入Zotero数据文件夹,将自动合并文件夹
