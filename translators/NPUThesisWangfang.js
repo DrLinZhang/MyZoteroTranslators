@@ -1,6 +1,6 @@
 {
 	"translatorID": "d7c54cfc-6b6b-4aeb-af43-5a4d44a13666",
-	"label": "NPUThesisWangfang",
+	"label": "NPU Thesis Wangfang",
 	"creator": "DrZhang<DrZhang@mail.nwpu.edu.cn>",
 	"target": "xwlw.nwpu.edu.cn",
 	"minVersion": "3.0",
@@ -9,7 +9,7 @@
 	"inRepository": true,
 	"translatorType": 4,
 	"browserSupport": "gcsibv",
-	"lastUpdated": "2021-10-16 09:56:58"
+	"lastUpdated": "2023-05-02 22:52:58"
 }
 
 /*
@@ -375,7 +375,7 @@ function scrape(doc, url) { //API
 	Z.debug(detectWeb(doc, url));
 	//Z.debug(doc);
 	var thesisid = url.split('/').pop();
-	var jsonURL = 'http://202.117.255.193:81/apple/api/nutshell/search/thesis/' + thesisid;
+	var jsonURL =  window.location.origin + '/apple/api/nutshell/search/thesis/' + thesisid;
 
 	ZU.doGet(jsonURL, function (text) {
 		var isValidJSON = true;
